@@ -1,7 +1,13 @@
-import React from "react";
+import FeaturedProducts from "@/components/FeaturedProducts";
+import Hero from "@/components/Hero";
 
 function Landing() {
-  return <div>Landing</div>;
+  return (
+    <div>
+      <Hero />
+      <FeaturedProducts />
+    </div>
+  );
 }
 
 export default Landing;
