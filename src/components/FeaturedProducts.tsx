@@ -1,7 +1,12 @@
-import React from "react";
+import SectionTitle from "@/components/SectionTitle";
+import ProductsGrid from "@/components/ProductsGrid";
 
 function FeaturedProducts() {
-  return <div>FeaturedProducts</div>;
+  return (
+    <section className="pt-24">
+      <SectionTitle text="featured products" />
+      <ProductsGrid />
+    </section>
+  );
 }
-
 export default FeaturedProducts;
